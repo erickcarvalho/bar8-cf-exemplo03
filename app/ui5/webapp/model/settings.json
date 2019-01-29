@@ -1,0 +1,10 @@
+{
+	"url": 
+		{
+			"name": "Face Detection",
+			"url": "/ml/facedetection/face-detection",
+			"headers": {
+				"APIKey": "<<<< YOUR API KEY >>>>"
+			}
+		}
+}

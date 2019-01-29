@@ -1,0 +1,26 @@
+
+<core:View 
+    xmlns:m="sap.m" 
+    xmlns:core="sap.ui.core"
+    xmlns:l="sap.ui.layout"
+    controllerName="sap.mlf.bar8.controller.InferenceResult">
+    <m:Page title="{i18n>appTitle}" showHeader="true">
+        <l:VerticalLayout class="sapUiContentPadding" width="100%">
+            <l:content>
+                <m:Button text="Show Details - JSON" class="sapUiSmallMarginBottom" press="showJSONInfo" width="250px"/>
+            </l:content>
+        </l:VerticalLayout>
+        <m:FlexBox
+            id="BoxImage" 
+            fitContainer="true"
+            alignItems="Center" 
+            justifyContent="Center">
+            <m:Image
+                id="uploadedImage"
+                width="70%" 
+                height="70%" 
+                densityAware="false" >
+            </m:Image>
+        </m:FlexBox>
+    </m:Page>
+</core:View>
