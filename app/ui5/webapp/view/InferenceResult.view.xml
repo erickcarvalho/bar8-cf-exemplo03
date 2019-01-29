@@ -7,7 +7,7 @@
     <m:Page title="{i18n>appTitle}" showHeader="true">
         <l:VerticalLayout class="sapUiContentPadding" width="100%">
             <l:content>
-                <m:Button text="Show Details - JSON" class="sapUiSmallMarginBottom" press="showJSONInfo" width="250px"/>
+                <m:Button text="{i18n>btn}" class="sapUiSmallMarginBottom" press="showJSONInfo" width="250px"/>
             </l:content>
         </l:VerticalLayout>
         <m:FlexBox
